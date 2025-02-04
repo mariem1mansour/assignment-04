@@ -22,11 +22,46 @@ const Header = () => {
     </div>
   );
 };
+const RestaurantCard = (props) => {
+  const { item } = props;
+  const { name, location, stars, image } = item;
+  const imageSrc = `https://media-assets.swiggy.com/swiggy/image/upload/${image}`;
+  return (
+    <div>
+      <div className="PictureRestaurantCard">
+        <img src={imageSrc} alt="" />
+      </div>
+      <div className="InformationRestaurantCard">
+        <h3>{name}</h3>
+        <h4>{location}</h4>
+        <h4>
+          <img src="" alt="" />
+          {stars}
+        </h4>
+      </div>
+    </div>
+  );
+};
+const RestaurantList = () => {
+  return (
+    <div>
+      <RestaurantCard />
+    </div>
+  );
+};
+const Body = () => {
+  return (
+    <div>
+      <RestaurantList />
+    </div>
+  );
+};
 
 const AppLayout = () => {
   return (
     <div>
       <Header />
+      <Body />
     </div>
   );
 };

@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "info": {
+        "name": "Stories",
+        "location": "Sousse",
+        "image": "fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/12/18/35139b49-285b-4b15-ae85-94c910ff612c_69cb0003-937e-49d0-a21a-5b46ec2dd500.jpg_compressed",
+        "stars": 4.3
+      }
+    },
+    {
+      "info": {
+        "name": "Bestof Food",
+        "location": "Tunis",
+        "image": "fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/12/24/b6d11e30-af58-4395-a633-2c6a24cbac02_ee307515-663d-4f6b-970a-f389407bb46b.jpg",
+        "stars": 4.1
+      }
+    },
+    {
+      "info": {
+        "name": "Red Beans",
+        "location": "Monastir",
+        "image": "fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/15/5af415bc-95ec-43e7-a25f-7b246f6a08b6_428985.jpg",
+        "stars": 3.2
+      }
+    },
+    {
+      "info": {
+        "name": "Hindi Foods",
+        "location": "Nabeul",
+        "image": "fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/11/3d3eefad-547c-4eb6-a6b6-915cbca18925_954315.jpg",
+        "stars": 4.4
+      }
+    }
+  ]
+}
